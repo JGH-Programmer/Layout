@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:id="@+id/A"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="A"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@color/custom_red">
+    </TextView>
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="B"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_below="@id/A"
+        android:layout_toLeftOf="@+id/A"
+        android:background="@color/custom_yellow">
+    </TextView>
+
+    <TextView
+        android:id="@+id/C"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="C"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_below="@id/A"
+        android:layout_toRightOf="@+id/A"
+        android:background="@color/custom_orange">
+    </TextView>
+
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="D"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_above="@id/A"
+        android:layout_toLeftOf="@+id/A"
+        android:background="@color/custom_green">
+    </TextView>
+
+    <TextView
+        android:id="@+id/E"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="E"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_above="@id/A"
+        android:layout_toRightOf="@+id/A"
+        android:background="@color/custom_blue">
+    </TextView>
+
+
+
+
+</RelativeLayout>
